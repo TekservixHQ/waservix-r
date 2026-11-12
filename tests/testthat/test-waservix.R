@@ -9,6 +9,7 @@ test_that("webhook secrets are checked", {
 
 test_that("clients need a key", {
   expect_error(waservix_client(""), "API key")
+  expect_error(waservix_client(NA_character_), "API key")
   cl <- waservix_client("wpk_x", base_url = "https://example.com/api//")
   expect_s3_class(cl, "waservix_client")
   expect_equal(cl$base_url, "https://example.com/api")

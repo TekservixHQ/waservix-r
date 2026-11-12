@@ -26,7 +26,7 @@
 #' client <- waservix_client("wpk_your_device_key")
 waservix_client <- function(key = Sys.getenv("WASERVIX_API_KEY"),
                             base_url = "https://tekservix.com/waservix/api") {
-  if (!is.character(key) || length(key) != 1L || !nzchar(key)) {
+  if (!is.character(key) || length(key) != 1L || is.na(key) || !nzchar(key)) {
     stop("A WAservix device API key is required (WAservix -> Devices in your Tekservix account).",
          call. = FALSE)
   }
