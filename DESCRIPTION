@@ -2,7 +2,10 @@ Package: waservix
 Type: Package
 Title: Client for the 'WAservix' 'WhatsApp' API Gateway
 Version: 1.0.0
-Authors@R: person("Tekservix", role = c("aut", "cre", "cph"), email = "support@tekservix.com")
+Authors@R: c(
+    person("Joseph", role = c("aut", "cre"), email = "niyogushimwaj967@gmail.com"),
+    person("Tekservix", role = c("cph", "fnd"))
+  )
 Description: Client for the 'WAservix' 'WhatsApp' API Gateway <https://tekservix.com/waservix>,
     which sends 'WhatsApp' messages from your own number connected by QR code.
     Send texts, images, documents and locations to numbers and groups, check
