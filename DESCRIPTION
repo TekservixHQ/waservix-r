@@ -1,0 +1,22 @@
+Package: waservix
+Type: Package
+Title: Client for the 'WAservix' 'WhatsApp' API Gateway
+Version: 1.0.0
+Authors@R: person("Tekservix", role = c("aut", "cre", "cph"), email = "support@tekservix.com")
+Description: Client for the 'WAservix' 'WhatsApp' API Gateway <https://tekservix.com/waservix>,
+    which sends 'WhatsApp' messages from your own number connected by QR code.
+    Send texts, images, documents and locations to numbers and groups, check
+    message status, edit, delete and resend messages, check whether a number uses
+    'WhatsApp', list contacts and groups, and verify webhook deliveries.
+    A 'Tekservix' account with 'WAservix' and a device API key are required.
+License: MIT + file LICENSE
+URL: https://tekservix.com/waservix/docs/, https://github.com/TekservixHQ/waservix-r
+BugReports: https://github.com/TekservixHQ/waservix-r/issues
+Depends: R (>= 4.1.0)
+Imports: httr2 (>= 1.0.0), jsonlite, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
