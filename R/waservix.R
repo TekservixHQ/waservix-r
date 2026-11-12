@@ -62,7 +62,7 @@ waservix_request <- function(client, method, path, body = NULL, query = NULL) {
   req <- httr2::req_method(req, method)
   req <- httr2::req_headers(req, Authorization = paste("Bearer", client$key),
                             Accept = "application/json", .redact = "Authorization")
-  req <- httr2::req_user_agent(req, "waservix-r/1.0.0")
+  req <- httr2::req_user_agent(req, "waservix-r/1.0.1")
   req <- httr2::req_error(req, is_error = function(resp) FALSE)
   query <- Filter(Negate(is.null), as.list(query))
   if (length(query)) req <- do.call(httr2::req_url_query, c(list(req), query))
