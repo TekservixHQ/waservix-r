@@ -4,7 +4,7 @@
 #' documents and locations from your own number, connected by QR code. You need
 #' a Tekservix account with WAservix and a connected number. Each number has
 #' its own device API key (it starts with `wpk_`) under WAservix -> Devices.
-#' Create an account at <https://tekservix.com/waservix>. API reference:
+#' Create an account at <https://tekservix.com/waservix/>. API reference:
 #' <https://tekservix.com/waservix/docs/>.
 #'
 #' Start with [waservix_client()], then call the other `waservix_*` functions.

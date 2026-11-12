@@ -6,11 +6,11 @@ Authors@R: c(
     person("Joseph", "Niyogushimwa", role = c("aut", "cre"), email = "niyogushimwaj967@gmail.com"),
     person("Tekservix", role = c("cph", "fnd"))
   )
-Description: Client for the 'WAservix' 'WhatsApp' API Gateway <https://tekservix.com/waservix>,
+Description: Client for the 'WAservix' 'WhatsApp' API Gateway <https://tekservix.com/waservix/>,
     which sends 'WhatsApp' messages from your own number connected by QR code.
     Send texts, images, documents and locations to numbers and groups, check
     message status, edit, delete and resend messages, check whether a number uses
-    'WhatsApp', list contacts and groups, and verify webhook deliveries.
+    'WhatsApp', list contacts and groups, and verify incoming event notifications.
     A 'Tekservix' account with 'WAservix' and a device API key are required.
 License: MIT + file LICENSE
 URL: https://tekservix.com/waservix/docs/, https://github.com/TekservixHQ/waservix-r
